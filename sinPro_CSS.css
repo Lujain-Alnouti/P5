@@ -1,0 +1,405 @@
+﻿body {
+}
+
+.title {
+    width: 100%;
+    display: block;
+    color: #2B3467;
+    text-align: center;
+    /*    margin-left:50%;
+*/ font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+.div_img {
+    float: left;
+    width: 40%;
+    height: 450px;
+    margin-left: 10%;
+}
+
+.pro_img {
+    width: 80%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.desc_div {
+    /*margin-top: 150px;*/
+    float: left;
+    width: 35%;
+    height: 450px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 7%;
+}
+
+.desc {
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 100px;
+    border: 3px solid #2B3467;
+    width: 65%;
+    height: 120px;
+    color: #2B3467;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    text-align: center;
+}
+
+.counter {
+    float: left;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 20px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.price {
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    color: #2B3467;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pab {
+    width: 100%;
+    margin-left: 10%;
+}
+
+.IncaDec {
+    background-color: #2B3467;
+    color: #E6E6E6;
+    font-size: 25px;
+    border-radius: 13px;
+    width: 30px;
+    height: 30px;
+}
+
+.Add {
+    display: block;
+    width: 15%;
+    border-radius: 6px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #E6E6E6;
+    background-color: #E6E6E6;
+    color: #2B3467;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 25px;
+    margin-left: 40%;
+}
+
+.add_comme {
+    width: 40%;
+    height: 40px;
+    background-color: #808080;
+    border-radius: 17px;
+    border: 1px solid #808080;
+    color: #2B3467;
+    margin-left: 20%
+}
+
+.post {
+    width: 6%;
+    border-radius: 4px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid #E6E6E6;
+    background-color: #E6E6E6;
+    color: #2B3467;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 12%;
+}
+
+.commented {
+    margin-top: 30px;
+    width: 40%;
+    height: 40px;
+    background-color: #E6E6E6;
+    border-radius: 17px;
+    border: 1px solid #E6E6E6;
+    color: #2B3467;
+    margin-left: 25%;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 15px;
+    display: block;
+}
+
+
+@media only screen and (min-device-width:0px) and (max-device-width:480px) {
+    .div_img {
+        float: unset;
+        width: 80%;
+        height: 270px;
+        margin-left: 10%;
+        display: block
+    }
+
+    .pro_img {
+        width: 100%;
+        height: 250px;
+        margin-top: 20px;
+        margin-left: 1%;
+    }
+
+    .desc_div {
+        /*margin-top: 150px;*/
+        float: unset;
+        display: inline-block;
+        width: 70%;
+        height: 270px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 11%;
+    }
+
+    .desc {
+        border-radius: 20px;
+        display: inline-block;
+        margin-top: 15px;
+        border: 3px solid #2B3467;
+        width: 100%;
+        padding-top: 15px;
+        height: 155px;
+        color: #2B3467;
+        font-family: 'Times New Roman';
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .counter {
+        float: left;
+        display: inline-block;
+        margin-left: 20%;
+        margin-top: 20px;
+        font-family: 'Times New Roman';
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .price {
+        margin-top: 20px;
+        margin-left: -6px;
+        float: left;
+        color: #2B3467;
+        font-family: 'Times New Roman';
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .pab {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .IncaDec {
+        background-color: #2B3467;
+        color: #E6E6E6;
+        font-size: 25px;
+        border-radius: 13px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .Add {
+        display: block;
+        width: 60%;
+        border-radius: 6px;
+        height: 50px;
+        text-align: center;
+        border: 2px solid #E6E6E6;
+        background-color: #E6E6E6;
+        color: #2B3467;
+        font-family: 'Times New Roman';
+        font-style: italic;
+        font-size: 25px;
+        margin-left: 21%;
+    }
+
+    .add_comme {
+        width: 80%;
+        height: 40px;
+        background-color: #808080;
+        border-radius: 17px;
+        border: 1px solid #808080;
+        color: #2B3467;
+        margin-left: 10%
+    }
+
+    .post {
+        width: 35%;
+        border-radius: 4px;
+        height: 30px;
+        text-align: center;
+        border: 2px solid #E6E6E6;
+        background-color: #E6E6E6;
+        color: #2B3467;
+        font-family: 'Times New Roman';
+        font-style: italic;
+        font-size: 18px;
+        margin-left: 30%;
+        margin-top: 10px;
+    }
+
+    .commented {
+        margin-top: 45px;
+        width: 75%;
+        height: 30px;
+        background-color: #E6E6E6;
+        border-radius: 17px;
+        border: 1px solid #E6E6E6;
+        color: #2B3467;
+        margin-left: 11%;
+        font-family: 'Times New Roman';
+        font-style: italic;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 2px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width:768px) {
+    .div_img {
+        float: left;
+        width: 40%;
+        height: 450px;
+        margin-left: 10%;
+    }
+
+
+    .pro_img {
+        width: 100%;
+        height: 370px;
+        margin-top: 20px;
+        margin-left: -5%;
+    }
+
+    .desc_div {
+        /*margin-top: 150px;*/
+        float: left;
+        width: 35%;
+        height: 450px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 6%;
+    }
+
+    .desc {
+        border-radius: 20px;
+        display: inline-block;
+        margin-top: 100px;
+        border: 3px solid #2B3467;
+        width: 100%;
+        height: 155px;
+        color: #2B3467;
+        font-family: 'Times New Roman';
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .counter {
+        float: left;
+        display: inline-block;
+        margin-left: 20%;
+        margin-top: 20px;
+        font-family: 'Times New Roman';
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .price {
+        margin-top: 20px;
+        margin-left: 20px;
+        float: left;
+        color: #2B3467;
+        font-family: 'Times New Roman';
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .pab {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .IncaDec {
+        background-color: #2B3467;
+        color: #E6E6E6;
+        font-size: 25px;
+        border-radius: 13px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .Add {
+        display: block;
+        width: 23%;
+        border-radius: 6px;
+        height: 50px;
+        text-align: center;
+        border: 2px solid #E6E6E6;
+        background-color: #E6E6E6;
+        color: #2B3467;
+        font-family: 'Times New Roman';
+        font-style: italic;
+        font-size: 25px;
+        margin-left: 40%;
+    }
+
+    .add_comme {
+        width: 40%;
+        height: 40px;
+        background-color: #d8e3fa;
+        border-radius: 14px;
+        border: 1px solid #808080;
+        color: #2B3467;
+        margin-left: 20%
+    }
+
+    .post {
+        width: 6%;
+        border-radius: 4px;
+        height: 30px;
+        text-align: center;
+        border: 2px solid #E6E6E6;
+        background-color: #E6E6E6;
+        color: #2B3467;
+        font-family: 'Times New Roman';
+        font-style: italic;
+        font-size: 18px;
+        margin-left: 12%;
+    }
+
+    .commented {
+        margin-top: 45px;
+        width: 40%;
+        height: 40px;
+        background-color: #E6E6E6;
+        border-radius: 17px;
+        border: 1px solid #E6E6E6;
+        color: #2B3467;
+        margin-left: 25%;
+        font-family: 'Times New Roman';
+        font-style: italic;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 2px;
+    }
+}
